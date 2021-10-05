@@ -1,0 +1,326 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+header a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 3rem;
+    padding-left: 50px;
+}
+
+header img {
+    margin-left: 85%;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-image: url(../img/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    padding-top: 250px;
+    color: #fff;
+}
+
+.hero-text h3 {
+    font-size: 3.75rem;
+    font-weight: 300;
+    font-style: normal;  
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.hero-section hr {
+    height: 10px;
+    background: #fff;
+    border: none;
+}
+
+.hero-section .hero-images,
+.hero-section hr {
+    margin-top: 20px;
+    width: 45%;
+}
+
+ .hero-section .hero-icon {
+     border: 2px solid black;
+ }
+
+.services-section {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px;
+}
+
+.services-section h6 {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: #999999;
+}
+
+.services-section h3 {
+    font-weight: 700;
+    font-size: 3.125rem;
+    width: 780px;
+    margin: 2px auto 0;
+}
+
+.services-section p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 780px;
+    margin: 30px auto 0;
+    color: #111111;
+}
+
+button {
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 30px auto 60px;
+    padding: 16px 36px;
+    color: #fff;
+    background: #e71a23;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.help-section {
+    /* margin: 10rem 17rem; */
+  padding: 100px;
+}
+
+.help-section .working-one {
+    width: 49%;
+}
+
+.help-section .working-one img {
+    width: 100%;
+}
+
+.working-one h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.working-one .call-red{
+    margin-bottom: 30px;
+    color: #e71a23;
+    font-size: 1.875rem; 
+}
+
+.working-one p {
+    margin-top: 30px;
+    color: #111111;
+}
+
+.quality-section {
+    background: #bdb8b8;
+    /* background-image: url(../img/image-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; */
+}
+
+.quality-section .quality-img img {
+    width: 500px;
+}
+
+.quality-section .quality-img {
+    width: 50%;
+    background-image: url(../img/image-4.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    /* text-align: center;
+    padding: 30px 60px; */
+}
+
+.quality-section .quality-text {
+    width: 50%;
+    margin-top: 100px;
+    /* padding: 30px 40px; */
+}
+
+.quality-section .quality-text hr {
+    height: 9px;
+    background-color: red;
+    border: none;
+    width: 83%;
+    margin: 30px 0;
+}
+
+
+.quality-text h2 {
+    color: #104e92;
+    font-size: 4.5rem;
+    font-weight: 700;
+    /* margin: 135px 0 0; */
+}
+
+.quality-section .quality-text p {
+    color: #111111;
+    font-size: 1.125rem;
+    margin: 30px 0 0;
+    width: 70%;
+    
+}
+
+.render-section {
+    padding: 100px;
+    /* width: 80%;
+   margin-left: 10%; */
+}
+
+.render-section h1 {
+    padding-bottom: 50px;
+    font-size: 3.125rem;
+    text-transform: capitalize;
+}
+
+.render-section .icon-box {
+    height: 83px;
+    width: 83px;
+    background: red;
+    padding: 18px;
+    display: flex;
+    border-radius: 100%;
+}
+
+.render-section .working-two h4 {
+    font-weight: 700;
+    margin: 20px 0 0;
+    font-size: 1.5rem;
+}
+
+.render-section .working-two p {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 20px 0 0;
+    color: #111111;
+}
+
+.render-section .render-imgs .working-two {
+    width: 25%;
+}
+
+
+
+.about-us {
+    color: #ffffff;
+    background-color: #104e92;
+    padding: 100px 0;
+}
+
+.about-us .about-text {
+    /* margin-top: 80px;
+    margin-left: 10%; */
+    padding-left: 10%;
+    padding-top: 80px;
+    
+}
+
+.about-us h5 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+}
+
+.about-us  .about-text h1 {
+    font-size: 5.7rem;
+    line-height: 1;
+}
+
+.about-us .about-text h2 {
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: lighter;
+}
+
+.about-us .about-text, .about-us .about-imgs {
+    width: 100%;
+}
+
+.about-us .about-imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us .about-imgs {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 8%;
+}
+
+.about-us .about-imgs .about-img {
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.todo-section {
+    text-align: center;
+    padding: 100px;
+}
+
+.todo-section h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.todo-section p {
+    font-size: 1.875rem;
+    /* font-weight: 300; */
+    margin: 30px 0 0;
+    color: #111111;
+}
+
+input {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 16px 53px 16px 52px;
+    color: #454545;
+    cursor: pointer;
+    background-color: transparent !important;
+}
