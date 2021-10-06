@@ -9,8 +9,12 @@
 </head>
 <body>
         <header>
-            <a href="">logo</a>
-            <img src="https://img.icons8.com/ios-filled/50/000000/menu--v1.png"/>
+            <div class="d-flex justify-content-between">
+                <a href="">logo</a>
+            
+                <img src="https://img.icons8.com/ios-filled/50/000000/menu--v1.png"/>
+            </div>
+            
         </header>
         <section class="hero-section">
             <div class="container">
@@ -18,10 +22,19 @@
                     <h3>HOUSE REPAIR</h3>
                     <h1>SERVICES</h1>
                     <hr>
-                    <div class="hero-icon d-flex justify-content-between">
-                        <!-- <img src="./icons/006-paint-roller.svg" alt="">
-                        <img src="./icons/003-cleaning-tools-2.svg" alt="">
-                        <img src="./icons/009-screwdriver.svg" alt=""> -->
+                    <div class="hero-icon d-flex justify-content-between flex-sm-column">
+                       <div class="icon-tools"> 
+                           <img src="./icons/006-paint-roller.svg" alt="">
+                           <p>PAINTING</p> 
+                    </div>
+                        <div class="icon-tools">
+                            <img src="./icons/003-cleaning-tools-2.svg" alt="">
+                            <p>CLEANING</p>
+                        </div>
+                        <div class="icon-tools">
+                            <img src="./icons/009-screwdriver.svg" alt="">
+                            <p>ELECTRICAL</p>
+                        </div>
                         
                     </div>
                 </div>
@@ -42,7 +55,7 @@
 
         <section class="help-section">
             <div class="container">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-column">
                     <div class="working-one">
                         <img src="./img/image-2.jpg" alt="man_working_on_washbasin">
                         <p>By planning ahead you can save yourself from feeling stressed and overwhelmed. 
@@ -59,7 +72,7 @@
 
         <section class="quality-section">
             <div class="container">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-sm-column">
                     <div class="quality-img">
                         <!-- <img src="./img/image-4.png" alt="electrical_man"> -->
                     </div>
@@ -80,7 +93,7 @@
                     <h1>Our Services</h1>
                </div>
                     <div class="render-imgs">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between flex-sm-column">
                             <div class="working-two">
                                 <div class="icon-box"><img src="./icons/005-painter-brush.svg" alt="brush paint"></div>
                                 <h4>Painting</h4>
@@ -88,7 +101,7 @@
                                     commercial property so you save the time and...</p>
                             </div>
                             <div class="working-two">
-                                <div class="icon-box wire"><img src="https://img.icons8.com/ios/50/000000/sustainable-energy.png"/></div>
+                                <div class="icon-box"><img src="https://img.icons8.com/ios/50/000000/sustainable-energy.png"/></div>
                                 <h4>Electrical</h4>
                                 <p>We'll send a multi-skilled repairman to your residential or 
                                     commercial property so you save the time and...</p>
@@ -105,7 +118,7 @@
         </section>
     <section class="about-us">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-flex flex-column">
                 <div class="about-text">
                     <h5>ABOUT US</h5>
                     <h2>Plumbing</h2>

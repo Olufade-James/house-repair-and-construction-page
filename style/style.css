@@ -24,26 +24,25 @@ body {
     justify-content: center;
 }
 
-.nav {
-    padding: 20px 0;
+header {
+    width: 90%;
 }
 
 header a {
     color: #111111;
     text-decoration: none;
     font-size: 3rem;
-    padding-left: 50px;
+    padding-left: 100px;
+    
 }
 
-header img {
-    margin-left: 85%;
-}
 
 .hero-section {
-    min-height: 100vh;
+    min-height: 120vh;
     background-image: url(../img/image-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 60px;
 }
 
 .hero-text {
@@ -71,11 +70,30 @@ header img {
 .hero-section .hero-images,
 .hero-section hr {
     margin-top: 20px;
-    width: 45%;
+    width: 68%;
 }
 
  .hero-section .hero-icon {
-     border: 2px solid black;
+     
+     width: 45%;
+     padding: 18px;
+     
+ }
+
+ .hero-section .icon-tools {
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    padding: 20px;
+ }
+
+ .hero-section p {
+    display: flex;
+    /* padding-top: 160px; */
+    letter-spacing: 2px;
+    width: 38%;
+    position: absolute;
+    margin: 100px 0;
  }
 
 .services-section {
@@ -139,6 +157,8 @@ button {
     font-weight: 700;
     font-size: 2.25rem;
     margin: 0;
+    padding-bottom: 14px;
+   
 }
 
 .working-one .call-red{
@@ -150,14 +170,12 @@ button {
 .working-one p {
     margin-top: 30px;
     color: #111111;
+    padding-top: 14px;
+    
 }
 
 .quality-section {
     background: #bdb8b8;
-    /* background-image: url(../img/image-4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh; */
 }
 
 .quality-section .quality-img img {
@@ -168,17 +186,16 @@ button {
     width: 50%;
     background-image: url(../img/image-4.png);
     background-repeat: no-repeat;
-    height: 700px;
+    height: 640px;
     background-size: contain;
     background-position: center;
-    /* text-align: center;
-    padding: 30px 60px; */
+    
 }
 
 .quality-section .quality-text {
     width: 50%;
     margin-top: 100px;
-    /* padding: 30px 40px; */
+    
 }
 
 .quality-section .quality-text hr {
@@ -224,6 +241,7 @@ button {
     padding: 18px;
     display: flex;
     border-radius: 100%;
+   
 }
 
 .render-section .working-two h4 {
@@ -240,7 +258,8 @@ button {
 }
 
 .render-section .render-imgs .working-two {
-    width: 25%;
+    /* width: 25%; */
+    width: 30%;
 }
 
 
@@ -252,9 +271,9 @@ button {
 }
 
 .about-us .about-text {
-    /* margin-top: 80px;
-    margin-left: 10%; */
-    padding-left: 10%;
+   
+    
+    padding-left: 8%;
     padding-top: 80px;
     
 }
@@ -323,4 +342,148 @@ input {
     color: #454545;
     cursor: pointer;
     background-color: transparent !important;
+}
+
+
+@media (max-width: 769px) {
+.hero-section {
+    padding: 6px;
+}
+
+    .hero-text h3 {
+        font-size: 2.75rem;
+    }
+
+    .hero-text h1 {
+        font-size: 4rem;
+    }
+
+    .hero-section .hero-images, .hero-section hr{
+        width: 55%;
+    }
+
+    .services-section h3 {
+        font-size: 2.860rem;
+        width: 100%;
+    }
+
+    .services-section p {
+        width: 100%;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+    .help-section .working-one {
+        width: 100%;
+    }
+    .help-section .working-one p {
+        padding-bottom: 68px;
+    }
+
+    .quality-text h2 {
+        font-size: 3.125rem;
+    }
+
+    .quality-section .quality-img {
+     background-position: bottom;
+     background-size: cover;
+     height:  638px;
+     width: 49%;
+    }
+
+    .render-section {
+        padding: 40px;
+    }
+
+    .about-us .flex-column{
+        flex-direction: column;
+    }
+
+    .about-us .about-text {
+        margin-bottom: 75px;
+        padding: 37px 0;
+    }
+
+    /* .about-us .about-text h2, h1 {
+        flex-direction: row;
+    } */
+
+    .about-us .about-imgs img {
+        width: 102%;
+        height: 102%;
+    }
+
+    .todo-section h2 {
+        width: 106%;
+    }
+
+    .todo-section p {
+        width: 115%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    header a {
+        padding-left: 36px;
+    }
+
+    .hero-section {
+        background-position: right;
+        min-height: 142vh;
+    }
+
+    .hero-text h3 {
+        font-size: 2.25rem;
+    }
+
+    .hero-text h1 {
+        font-size: 3.625rem;
+    }
+
+    .hero-section .hero-icon {
+        display: none;
+    }
+
+    .hero-section .hero-images, .hero-section hr {
+        width: 87%;
+    }
+
+    .services-section {
+        padding: 13px;
+    }
+
+    .help-section {
+        padding: 23px;
+    }
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    .quality-section .quality-img, .quality-section .quality-text {
+        width: 100%;
+    }
+
+    .quality-section .quality-text hr {
+        width: 97%;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+    .render-section .render-imgs .working-two {
+        width: 100%;
+    }
+
+    .about-us .about-imgs {
+        flex-direction: column;
+    }
+
+    .about-us .about-imgs .about-img {
+        width: 100%;
+    }
+
+    
 }
