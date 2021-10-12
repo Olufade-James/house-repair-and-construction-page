@@ -70,7 +70,7 @@ header a {
 .hero-section .hero-images,
 .hero-section hr {
     margin-top: 20px;
-    width: 68%;
+    width: 60%;
 }
 
  .hero-section .hero-icon {
@@ -271,11 +271,10 @@ button {
 }
 
 .about-us .about-text {
-   
     
     padding-left: 8%;
     padding-top: 80px;
-    
+    padding-right: 30px;
 }
 
 .about-us h5 {
@@ -359,7 +358,7 @@ input {
     }
 
     .hero-section .hero-images, .hero-section hr{
-        width: 55%;
+        width: 58%;
     }
 
     .services-section h3 {
@@ -388,8 +387,12 @@ input {
     .quality-section .quality-img {
      background-position: bottom;
      background-size: cover;
-     height:  638px;
-     width: 49%;
+     height:  635px;
+     width: 61%;
+    }
+
+    .quality-section .quality-text {
+        margin-left: 30px;
     }
 
     .render-section {
@@ -401,8 +404,18 @@ input {
     }
 
     .about-us .about-text {
-        margin-bottom: 75px;
+        margin-bottom: 20px;
         padding: 37px 0;
+    }
+
+    .about-us .about-text .changes {
+        display: flex;
+    font-size: 4.5rem;
+    margin: 10px 0 0;
+    }
+
+    .about-us .about-text .changes b {
+        padding-left: 20px;
     }
 
     /* .about-us .about-text h2, h1 {
@@ -430,8 +443,12 @@ input {
     }
 
     .hero-section {
-        background-position: right;
-        min-height: 142vh;
+        background-position: 81.49% 50%;
+        min-height: 185vh;
+    }
+
+    .hero-section .hero-text {
+        margin-top: 190px;
     }
 
     .hero-text h3 {
@@ -466,8 +483,17 @@ input {
         width: 100%;
     }
 
+    .quality-section .quality-img {
+        width: 401px;
+        height: 593px;
+    }
+
     .quality-section .quality-text hr {
-        width: 97%;
+        width: 86%;
+    }
+
+    .quality-section .quality-text h2 {
+        width: min-content;
     }
 
     .flex-column {
@@ -485,5 +511,13 @@ input {
         width: 100%;
     }
 
+    .about-us .about-text .changes {
+        display: block;
+        font-size: 3.75rem;
+    }
+
+    .about-us .about-text .changes b {
+        display: contents;
+    }
     
 }
