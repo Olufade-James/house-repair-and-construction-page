@@ -26,6 +26,7 @@ body {
 
 header {
     width: 90%;
+    
 }
 
 header a {
@@ -43,6 +44,7 @@ header a {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px;
+    
 }
 
 .hero-text {
@@ -143,6 +145,7 @@ button {
 .help-section {
     /* margin: 10rem 17rem; */
   padding: 100px;
+  
 }
 
 .help-section .working-one {
@@ -176,6 +179,7 @@ button {
 
 .quality-section {
     background: #bdb8b8;
+    
 }
 
 .quality-section .quality-img img {
@@ -226,6 +230,7 @@ button {
     padding: 100px;
     /* width: 80%;
    margin-left: 10%; */
+  
 }
 
 .render-section h1 {
@@ -268,6 +273,7 @@ button {
     color: #ffffff;
     background-color: #104e92;
     padding: 100px 0;
+    
 }
 
 .about-us .about-text {
@@ -318,6 +324,7 @@ button {
 .todo-section {
     text-align: center;
     padding: 100px;
+   
 }
 
 .todo-section h2 {
@@ -346,7 +353,8 @@ input {
 
 @media (max-width: 769px) {
 .hero-section {
-    padding: 6px;
+    background-position: 34.74% 0%;
+    padding: 29px;
 }
 
     .hero-text h3 {
@@ -361,23 +369,33 @@ input {
         width: 58%;
     }
 
+    .services-section {
+        padding: 83px;
+    }
+
     .services-section h3 {
         font-size: 2.860rem;
-        width: 100%;
+        width: 90%;
     }
 
     .services-section p {
-        width: 100%;
+        width: 90%;
     }
 
     .flex-column {
         flex-direction: column;
     }
+    .help-section {
+        padding: 68px;
+        
+    }
+
     .help-section .working-one {
-        width: 100%;
+        width: 90%;
     }
     .help-section .working-one p {
         padding-bottom: 68px;
+        width: 89%;
     }
 
     .quality-text h2 {
@@ -388,15 +406,26 @@ input {
      background-position: bottom;
      background-size: cover;
      height:  635px;
-     width: 61%;
+     width: 50%;
+     padding: 30px;
     }
 
     .quality-section .quality-text {
-        margin-left: 30px;
+        /* margin-left: 30px; */
+        width: 47%;
+     
+    }
+
+    .quality-section .quality-text p{
+        width: 18rem;
     }
 
     .render-section {
         padding: 40px;
+    }
+
+    .about-us {
+        padding: 30px;
     }
 
     .about-us .flex-column{
@@ -418,17 +447,18 @@ input {
         padding-left: 20px;
     }
 
-    /* .about-us .about-text h2, h1 {
+    .about-us .about-text h2, h1 {
         flex-direction: row;
-    } */
+    }
 
-    .about-us .about-imgs img {
-        width: 102%;
+    .about-us .about-imgs  {
+        width: 100%;
         height: 102%;
+        padding: 0;
     }
 
     .todo-section h2 {
-        width: 106%;
+        width: 90%;
     }
 
     .todo-section p {
@@ -481,13 +511,13 @@ input {
 
     .quality-section .quality-img, .quality-section .quality-text {
         width: 100%;
+        padding: 20px;
     }
 
     .quality-section .quality-img {
-        width: 401px;
-        height: 593px;
+        width: 340px;
+        height: 475px;
     }
-
     .quality-section .quality-text hr {
         width: 86%;
     }
@@ -521,3 +551,4 @@ input {
     }
     
 }
+
